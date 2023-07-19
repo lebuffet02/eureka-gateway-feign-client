@@ -1,4 +1,4 @@
-package br.com.spring.food.pagamentos.api.db;
+package br.com.spring.food.pagamentos.api.db.entity;
 
 import br.com.spring.food.pagamentos.api.constants.Status;
 import lombok.AllArgsConstructor;
