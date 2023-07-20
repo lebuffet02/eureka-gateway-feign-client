@@ -45,6 +45,10 @@ public class PagamentosService {
         }
     }
 
+    public void deletarTodos() {
+        repository.deleteAll();
+    }
+
     private PagamentoDTO getPagamento(PagamentoDTO pagamentoDTO) {
         return getPagamento(null, pagamentoDTO);
     }
