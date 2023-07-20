@@ -5,8 +5,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class MapperUtils {
 
 
-    public static <T> Object getMapper (T objeto, Object objetoParaConverter) {
+    public static <T> T getMapper (Object objeto, Class<T> objetoParaConverter) throws IllegalArgumentException {
         ObjectMapper mapper = new ObjectMapper();
-        return mapper.convertValue(objeto, objetoParaConverter.getClass());
+        return mapper.convertValue(objeto, objetoParaConverter);
     }
 }
