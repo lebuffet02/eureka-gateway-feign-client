@@ -1,44 +1,18 @@
-HELP.md
-target/
-!projectCRUD/projectCRUD/.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-!**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+.idea/
 
-### IntelliJ IDEA ###
-../../.idea
-*.iws
-*.iml
-*.ipr
-*.lst
-.txt
-.idea
-*.class
-*.jar
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-*.txt
-mvnw.cmd
+pedidos/mvnw.cmd
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+pagamentos/mvnw.cmd
 
-### VS Code ###
-.vscode/
+eureka/mvnw
+
+gateway/mvnw
+
+pagamentos/mvnw
+
+pedidos/mvnw
+
+pedidos/.jpb/
+
+pagamentos/.jpb/persistence-units.xml
